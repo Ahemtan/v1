@@ -1,32 +1,22 @@
 {
-    "name": "plex-api",
-    "version": "1.0.0",
-    "description": "Api for anime data with anime",
-    "main": "lib/anime_parser.js",
-    "type": "module",
-    "types": "lib/types/index.d.ts",
-    "scripts": {
-        "start": "node lib/api.js",
-        "dev": "nodemon lib/api.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "anime",
-        "streaming",
-        "discovery",
-        "api",
-        "plex"
-    ],
-    "author": "https://github.com/ahemtan",
-    "license": "ISC",
-    "dependencies": {
-        "axios": "^0.27.2",
-        "cheerio": "^1.0.0-rc.10",
-        "cors": "^2.8.5",
-        "crypto-js": "^4.1.1",
-        "express": "^4.17.1"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.15"
-    }
+  "name": "vercelapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2",
+    "uuid": "^8.3.1"
+  }
 }
