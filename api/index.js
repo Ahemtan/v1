@@ -1,4 +1,4 @@
-const scapper = require('./anikatsu.js')
+const scapper = require('./zeroapi.js')
 const express = require('express')
 const { env } = require('process')
 const cors = require('cors')
@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send('Working!')
+    res.send('Working! Api is succesfully alive.')
 })
 
 app.get('/getPopular/:page', async (req, res) => {
